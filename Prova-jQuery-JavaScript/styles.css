@@ -1,0 +1,53 @@
+body{
+
+  background-size: cover;
+  background-position: center;
+}
+img{
+  width:150px;height:96px;
+}
+
+#oitavas, #quartas, #semi, #final, #vencedor{
+  display: inline-block;
+}
+
+#quartas1{
+  margin-top: 100px;
+}
+#quartas2{
+  margin-top: 200px;
+}
+
+#quartas3{
+  margin-top: 300px;
+}
+#quartas4{
+  margin-top: 175px;
+}
+
+#semi1{
+  margin-top: 300px;
+}
+
+#semi2{
+  margin-top: 700px;
+}
+
+#final{
+  margin-top: 750px;
+}
+#vencedor{
+  margin-top: 800px;
+}
+#nome{
+  color:white;
+  font-size: 200%;
+  font-weight: bold;
+  font-style: oblique;
+}
+img:active{
+    transform: scale(2);
+    -webkit-transform: scale(2);
+    -o-transform: scale(2);
+    -moz-transform: scale(2);
+}
